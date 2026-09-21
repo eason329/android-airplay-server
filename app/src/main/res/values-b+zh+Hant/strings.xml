@@ -18,8 +18,8 @@
     <!-- Overview -->
     <string name="server_stopped">接收器已停止</string>
     <string name="waiting_for_connection">正在等待連接...</string>
-    <string name="waiting_for_playback">Press start on the sender...</string>
-    <string name="error_starting_server">Error starting server</string>
+    <string name="waiting_for_playback">請在發送端按開始...</string>
+    <string name="error_starting_server">接收器啟動時出錯</string>
     <string name="connected_count">已連接 %d</string>
     <string name="error_label">錯誤</string>
     <string name="stopped_label">已停止</string>
@@ -31,46 +31,46 @@
     <string name="cd_pip">畫中畫</string>
     <string name="cd_fullscreen">全畫面</string>
     <string name="cd_exit_fullscreen">離開全畫面</string>
-    <string name="cd_cover_art">Cover art</string>
-    <string name="cd_play_pause">Play/Pause</string>
-    <string name="cd_rewind">Rewind</string>
-    <string name="cd_fast_forward">Fast forward</string>
-    <string name="cd_volume_down">Volume down</string>
-    <string name="cd_volume_up">Volume up</string>
-    <string name="cd_mute">Mute</string>
-    <string name="cd_download">Download video</string>
-    <string name="cd_cancel_download">Cancel download</string>
+    <string name="cd_cover_art">封面插圖</string>
+    <string name="cd_play_pause">播放/暫停</string>
+    <string name="cd_rewind">倒退</string>
+    <string name="cd_fast_forward">快進</string>
+    <string name="cd_volume_down">調小音量</string>
+    <string name="cd_volume_up">調大音量</string>
+    <string name="cd_mute">靜音</string>
+    <string name="cd_download">下載影片</string>
+    <string name="cd_cancel_download">取消下載</string>
 
     <!-- Video download -->
-    <string name="download_saved">Saved to %1$s</string>
-    <string name="download_failed">Download failed</string>
+    <string name="download_saved">已儲存到 %1$s</string>
+    <string name="download_failed">下載失敗</string>
 
     <!-- Player gestures -->
-    <string name="gesture_seek_seconds">%1$d seconds</string>
+    <string name="gesture_seek_seconds">%1$d 秒</string>
     <string name="seconds_short">%1$ds</string>
-    <string name="select_playback_speed">Playback speed</string>
-    <string name="cd_reset_speed">Reset speed</string>
-    <string name="skip_silence">Skip silence</string>
+    <string name="select_playback_speed">播放速度</string>
+    <string name="cd_reset_speed">重設速度</string>
+    <string name="skip_silence">跳過靜音內容</string>
 
     <!-- Player controls -->
-    <string name="cd_back">Back</string>
-    <string name="cd_copy_url">Copy video URL</string>
-    <string name="cd_rotate">Rotate screen</string>
-    <string name="cd_lock_controls">Lock controls</string>
-    <string name="cd_unlock_controls">Unlock controls</string>
-    <string name="scale_best_fit">Best fit</string>
-    <string name="scale_stretch">Stretch</string>
-    <string name="scale_crop">Crop</string>
+    <string name="cd_back">後退</string>
+    <string name="cd_copy_url">複製影片連結</string>
+    <string name="cd_rotate">旋轉螢幕</string>
+    <string name="cd_lock_controls">控制鎖定</string>
+    <string name="cd_unlock_controls">解除控制鎖定</string>
+    <string name="scale_best_fit">最佳適合</string>
+    <string name="scale_stretch">拉伸</string>
+    <string name="scale_crop">裁切</string>
     <string name="scale_hundred_percent">100%</string>
 
     <!-- Dialogs -->
-    <string name="dialog_pin_title">AirPlay PIN</string>
-    <string name="btn_ok">OK</string>
+    <string name="dialog_pin_title">輸入 AirPlay PIN</string>
+    <string name="btn_ok">確定</string>
 
     <!-- Logs screen -->
-    <string name="btn_export">Export</string>
-    <string name="btn_clear">Clear</string>
-    <string name="export_logs_chooser_title">Export logs</string>
+    <string name="btn_export">匯出</string>
+    <string name="btn_clear">清除</string>
+    <string name="export_logs_chooser_title">匯出記錄</string>
 
     <!-- Settings sections -->
     <string name="section_server">接收器</string>
@@ -83,107 +83,107 @@
     <string name="setting_server_name">接收器名稱</string>
     <string name="setting_server_port">接收器連接埠</string>
     <string name="setting_auto_start">自動啟動接收器</string>
-    <string name="setting_auto_start_desc">Start the AirPlay server when the app launches</string>
-    <string name="setting_boot_auto_start">Start server at boot</string>
-    <string name="setting_boot_auto_start_desc">Start the AirPlay server when the device starts</string>
-    <string name="setting_run_in_background">Run in background</string>
-    <string name="setting_run_in_background_desc">Keep the server running after leaving the app</string>
+    <string name="setting_auto_start_desc">啟動應用程式時自動啟動 AirPlay 接收器</string>
+    <string name="setting_boot_auto_start">開機時啟動接收器</string>
+    <string name="setting_boot_auto_start_desc">裝置啟動時自動啟動 AirPlay 接收器</string>
+    <string name="setting_run_in_background">在背景執行</string>
+    <string name="setting_run_in_background_desc">離開應用程式後，保持應用程式執行</string>
 
     <!-- Settings: Connection -->
     <string name="setting_require_pin">需要 PIN (Beta)</string>
-    <string name="setting_require_pin_desc">Require 4-digit PIN for each new connection</string>
-    <string name="setting_allow_new_conn">Allow new connections</string>
-    <string name="setting_allow_new_conn_desc">Drop current client when a new one connects</string>
+    <string name="setting_require_pin_desc">每次連接均需要輸入 4 位數字 PIN 碼</string>
+    <string name="setting_allow_new_conn">接受新的連接</string>
+    <string name="setting_allow_new_conn_desc">有新裝置連接時中斷目前裝置的連接</string>
 
     <!-- Settings: Display -->
-    <string name="setting_idle_preview">Idle screen preview</string>
-    <string name="setting_idle_preview_desc">Show video surface while waiting for a connection</string>
-    <string name="setting_auto_fullscreen">Enter fullscreen automatically</string>
-    <string name="setting_auto_fullscreen_desc">Enter fullscreen when a client connects</string>
-    <string name="setting_keep_screen_on">Keep screen on</string>
-    <string name="setting_keep_screen_on_desc">Prevent sleeping while a client is connected</string>
-    <string name="setting_advertise_video">Advertise AirPlay video support</string>
-    <string name="setting_advertise_video_desc">When off, videos are cast as audio only streams</string>
-    <string name="setting_advertise_audio">Advertise AirPlay audio support</string>
-    <string name="setting_advertise_audio_desc">When off, the device can only be used for mirroring and will be hidden from media players</string>
-    <string name="setting_alac">Advertise ALAC codec</string>
-    <string name="setting_alac_desc">Offer ALAC in the mDNS record; used for music streaming</string>
-    <string name="setting_aac">Advertise AAC codec</string>
-    <string name="setting_aac_desc">Offer AAC-ELD/AAC-LC in the mDNS record; used for screen mirroring audio</string>
-    <string name="setting_launch_on_connect">Open this application on connect</string>
-    <string name="setting_launch_on_connect_desc">Show the screen when a client connects</string>
-    <string name="setting_launch_on_connect_no_permission">Tap to grant Display over other apps permission</string>
-    <string name="setting_resolution">Resolution</string>
-    <string name="setting_resolution_desc">Video resolution advertised to clients</string>
+    <string name="setting_idle_preview">待機預覽畫面</string>
+    <string name="setting_idle_preview_desc">等待連接時顯示視訊畫面</string>
+    <string name="setting_auto_fullscreen">自動進入全螢幕</string>
+    <string name="setting_auto_fullscreen_desc">當用戶端連接時自動進入全螢幕</string>
+    <string name="setting_keep_screen_on">保持螢幕開啟</string>
+    <string name="setting_keep_screen_on_desc">有裝置連接時防止進入睡眠模式</string>
+    <string name="setting_advertise_video">開啟 AirPlay 視訊支援</string>
+    <string name="setting_advertise_video_desc">關閉時，影片將僅以音訊串流傳輸</string>
+    <string name="setting_advertise_audio">開啟 AirPlay 音訊支援</string>
+    <string name="setting_advertise_audio_desc">關閉時，裝置僅能用於螢幕鏡像輸出，並將在媒體播放器中隱藏</string>
+    <string name="setting_alac">使用 ALAC 編解碼器</string>
+    <string name="setting_alac_desc">在 mDNS 記錄中提供 ALAC；用於音樂串流</string>
+    <string name="setting_aac">使用 AAC 編解碼器</string>
+    <string name="setting_aac_desc">在 mDNS 記錄中提供 AAC-ELD/AAC-LC；用於螢幕鏡像音訊</string>
+    <string name="setting_launch_on_connect">連接時啟動此程式</string>
+    <string name="setting_launch_on_connect_desc">當裝置連接時顯示畫面</string>
+    <string name="setting_launch_on_connect_no_permission">點擊以授予「在其他應用程式上層繪製」權限</string>
+    <string name="setting_resolution">解析度</string>
+    <string name="setting_resolution_desc">傳送給裝置的視訊解析度</string>
     <string name="setting_resolution_placeholder">[W]x[H]</string>
-    <string name="setting_resolution_width">Width</string>
-    <string name="setting_resolution_height">Height</string>
-    <string name="setting_max_fps">Maximum FPS</string>
-    <string name="setting_max_fps_desc">Maximum frame rate advertised to clients</string>
+    <string name="setting_resolution_width">寬度</string>
+    <string name="setting_resolution_height">高度</string>
+    <string name="setting_max_fps">最高 FPS</string>
+    <string name="setting_max_fps_desc">廣播給用戶端的最高幀率</string>
     <string name="setting_max_fps_placeholder">FPS</string>
-    <string name="setting_overscanned">Overscanned</string>
-    <string name="setting_overscanned_desc">Add pixel boundary for full-screen overscan displays</string>
-    <string name="chip_custom">Custom</string>
-    <string name="chip_device_portrait">Portrait</string>
-    <string name="chip_device_landscape">Landscape</string>
+    <string name="setting_overscanned">允許過掃描</string>
+    <string name="setting_overscanned_desc">為全螢幕過掃描顯示器新增像素邊界</string>
+    <string name="chip_custom">自訂</string>
+    <string name="chip_device_portrait">縱向</string>
+    <string name="chip_device_landscape">橫向</string>
 
     <!-- Settings: Decode -->
     <string name="setting_h265">H.265 (HEVC)</string>
-    <string name="setting_h265_desc">Enable H.265 video decoding if device supports it</string>
+    <string name="setting_h265_desc">如果裝置支援，則啟用 H.265 視訊解碼</string>
     <string name="setting_enforce_sdr">MediaFormat.KEY_COLOR_TRANSFER</string>
-    <string name="setting_enforce_sdr_desc">Tag video as limited SDR; disable to allow HDR sources to pass through</string>
-    <string name="setting_sw_alac">Force software ALAC decoder</string>
-    <string name="setting_sw_alac_desc">Always use software ALAC decoder instead of hardware decoder, may affect audio latency</string>
+    <string name="setting_enforce_sdr_desc">將視訊標記為受限 SDR；關閉以允許 HDR 來源直接通過</string>
+    <string name="setting_sw_alac">強制使用軟體 ALAC 編解碼器</string>
+    <string name="setting_sw_alac_desc">一律使用軟體 ALAC 解碼器而非硬體解碼器，可能會影響音訊延遲</string>
 
     <!-- Settings: Developer -->
-    <string name="setting_developer_options">Developer options</string>
-    <string name="setting_developer_options_desc">Show options for advanced users</string>
+    <string name="setting_developer_options">開發者選項</string>
+    <string name="setting_developer_options_desc">顯示進階使用者的選項</string>
     <string name="setting_key_allow_frame_drop">MediaFormat.KEY_ALLOW_FRAME_DROP</string>
-    <string name="setting_key_allow_frame_drop_desc">Allow video decoders to drop frames internally to keep up on Android 10+</string>
+    <string name="setting_key_allow_frame_drop_desc">允許視訊解碼器在 Android 10+ 上於內部掉幀以保持同步</string>
     <string name="setting_realtime_decoder_priority">MediaFormat.KEY_PRIORITY</string>
-    <string name="setting_realtime_decoder_priority_desc">Request real-time scheduling for audio decoder</string>
+    <string name="setting_realtime_decoder_priority_desc">為音訊解碼器要求即時排程</string>
     <string name="setting_operating_rate">MediaFormat.KEY_OPERATING_RATE</string>
-    <string name="setting_operating_rate_desc">Request maximum operating rate from decoder</string>
-    <string name="chip_auto">Auto</string>
-    <string name="chip_on">On</string>
-    <string name="chip_off">Off</string>
-    <string name="setting_low_latency">Low latency</string>
-    <string name="setting_low_latency_desc">Use low-latency audio decoding for output; this uses more power and CPU</string>
-    <string name="setting_scheduled_output_buffer_release">Aligned frame pacing</string>
-    <string name="setting_scheduled_output_buffer_release_desc">Schedule each decoded frame to the VSYNC matching its presentation timestamp</string>
-    <string name="setting_audio_delay">Override audio delay</string>
-    <string name="setting_audio_delay_desc">Set a custom audio latency reported to client</string>
+    <string name="setting_operating_rate_desc">向解碼器要求最高運作速率</string>
+    <string name="chip_auto">自動</string>
+    <string name="chip_on">開</string>
+    <string name="chip_off">關</string>
+    <string name="setting_low_latency">低延遲</string>
+    <string name="setting_low_latency_desc">對輸出使用低延遲音訊解碼；這會消耗更多電量與 CPU</string>
+    <string name="setting_scheduled_output_buffer_release">對齊幀步調</string>
+    <string name="setting_scheduled_output_buffer_release_desc">排程每個已解碼的畫面，使其與呈現時間戳記對應的 VSYNC 對齊</string>
+    <string name="setting_audio_delay">覆蓋音訊延遲</string>
+    <string name="setting_audio_delay_desc">設定回報給用戶端的自訂音訊延遲時間</string>
     <string name="audio_delay_value">%dms</string>
-    <string name="setting_audio_auto_buffer">Automatic software audio buffer size</string>
-    <string name="setting_audio_auto_buffer_desc">Adaptively tune the software audio buffer according to network conditions and device performance; slider adjusts how much jitter the buffer can absorb</string>
+    <string name="setting_audio_auto_buffer">自動軟體音訊快取大小</string>
+    <string name="setting_audio_auto_buffer_desc">根據網路狀況與裝置效能自適應調整軟體音訊快取；滑桿可調整快取能吸收的抖動量</string>
     <string name="audio_adaptive_value">%1$d%% (%2$s)</string>
     <string-array name="audio_adaptive_step_names">
-        <item>Lowest Latency</item>
-        <item>Lower Latency</item>
-        <item>Balanced</item>
-        <item>Better Stability</item>
-        <item>Best Stability</item>
+        <item>最低延遲</item>
+        <item>較低延遲</item>
+        <item>平衡</item>
+        <item>較佳穩定度</item>
+        <item>最佳穩定度</item>
     </string-array>
-    <string name="setting_audio_cushion_ms">Software audio buffer (ms)</string>
-    <string name="setting_audio_cushion_ms_desc">Buffer to absorb network and decoder jitter: shorter duration means lower latency; longer duration means fewer glitches</string>
-    <string name="setting_oboe_buffer_frames">Hardware output buffer (frames)</string>
-    <string name="setting_oboe_buffer_frames_desc">Stream buffer between this app and the audio device to absorb CPU scheduling jitter only. Keep at 0 for automatic sizing.</string>
-    <string name="setting_debug_overlay">Show debug overlay</string>
-    <string name="setting_debug_overlay_desc">Overlay stream stats on video: codec, FPS, bitrate, jitter, frames, drops</string>
-    <string name="setting_benchmark_log">Enable debug logging</string>
-    <string name="setting_benchmark_log_desc">Log stream stats to logcat: codec, FPS, bitrate, jitter, frames, drops</string>
+    <string name="setting_audio_cushion_ms">軟體音訊快取 (ms)</string>
+    <string name="setting_audio_cushion_ms_desc">吸收網路和解碼器抖動的快取：時間越短表示延遲越低；時間越長表示順暢度越高</string>
+    <string name="setting_oboe_buffer_frames">硬體輸出快取 (幀)</string>
+    <string name="setting_oboe_buffer_frames_desc">此應用程式與音訊裝置之間的串流快取，僅用於吸收 CPU 排程抖動。保持為 0 以自動調整大小。</string>
+    <string name="setting_debug_overlay">顯示偵錯覆蓋層</string>
+    <string name="setting_debug_overlay_desc">在影片上覆蓋串流統計資料：編解碼器、FPS、位元率、抖動、總幀數、掉幀數</string>
+    <string name="setting_benchmark_log">啟用偵錯日誌</string>
+    <string name="setting_benchmark_log_desc">將串流統計資料記錄至 logcat：編解碼器、FPS、位元率、抖動、總幀數、掉幀數</string>
 
     <!-- Debug overlay -->
-    <string name="debug_section_video">Video</string>
-    <string name="debug_section_audio">Audio</string>
-    <string name="debug_section_network">Network</string>
+    <string name="debug_section_video">視訊</string>
+    <string name="debug_section_audio">音訊</string>
+    <string name="debug_section_network">網路</string>
     <string name="debug_video">%1$s %2$s</string>
-    <string name="debug_fps_bitrate">FPS: %1$d  Bitrate: %2$s</string>
-    <string name="debug_frames_drops">Frames: %1$d  Drops: %2$d</string>
-    <string name="debug_jitter">Jitter: %1$s</string>
-    <string name="debug_audio">%1$s  Vol: %2$d%%</string>
-    <string name="debug_audio_buffer">Buffer: %1$d ms (tgt: %2$d ms)</string>
-    <string name="debug_audio_glitch">Glitch: trim=%1$d drop=%2$d sil=%3$d ur=%4$d xrun=%5$d</string>
-    <string name="debug_audio_decode">Decode: %1$s</string>
-    <string name="debug_clients">Clients: %1$d</string>
+    <string name="debug_fps_bitrate">FPS: %1$d  位元率: %2$s</string>
+    <string name="debug_frames_drops">總幀數: %1$d  掉幀數: %2$d</string>
+    <string name="debug_jitter">抖動: %1$s</string>
+    <string name="debug_audio">%1$s  音量: %2$d%%</string>
+    <string name="debug_audio_buffer">快取: %1$d ms (目標: %2$d ms)</string>
+    <string name="debug_audio_glitch">異常: 微調=%1$d 丟棄=%2$d 靜音=%3$d 未滿=%4$d 緩衝區溢位=%5$d</string>
+    <string name="debug_audio_decode">解碼: %1$s</string>
+    <string name="debug_clients">裝置數: %1$d</string>
 </resources>
