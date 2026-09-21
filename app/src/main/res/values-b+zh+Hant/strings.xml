@@ -19,7 +19,7 @@
     <string name="server_stopped">接收器已停止</string>
     <string name="waiting_for_connection">正在等待連接...</string>
     <string name="waiting_for_playback">Press start on the sender...</string>
-    <string name="error_starting_server">Error starting server</string>
+    <string name="error_starting_server">接收器啟動時出錯</string>
     <string name="connected_count">已連接 %d</string>
     <string name="error_label">錯誤</string>
     <string name="stopped_label">已停止</string>
@@ -32,44 +32,44 @@
     <string name="cd_fullscreen">全畫面</string>
     <string name="cd_exit_fullscreen">離開全畫面</string>
     <string name="cd_cover_art">Cover art</string>
-    <string name="cd_play_pause">Play/Pause</string>
-    <string name="cd_rewind">Rewind</string>
-    <string name="cd_fast_forward">Fast forward</string>
-    <string name="cd_volume_down">Volume down</string>
-    <string name="cd_volume_up">Volume up</string>
-    <string name="cd_mute">Mute</string>
-    <string name="cd_download">Download video</string>
-    <string name="cd_cancel_download">Cancel download</string>
+    <string name="cd_play_pause">播放/暫停</string>
+    <string name="cd_rewind">倒退</string>
+    <string name="cd_fast_forward">快進</string>
+    <string name="cd_volume_down">調小音量</string>
+    <string name="cd_volume_up">調大音量</string>
+    <string name="cd_mute">靜音</string>
+    <string name="cd_download">下載影片</string>
+    <string name="cd_cancel_download">取消下載</string>
 
     <!-- Video download -->
-    <string name="download_saved">Saved to %1$s</string>
-    <string name="download_failed">Download failed</string>
+    <string name="download_saved">已儲存到 %1$s</string>
+    <string name="download_failed">下載失敗</string>
 
     <!-- Player gestures -->
-    <string name="gesture_seek_seconds">%1$d seconds</string>
+    <string name="gesture_seek_seconds">%1$d 秒</string>
     <string name="seconds_short">%1$ds</string>
-    <string name="select_playback_speed">Playback speed</string>
-    <string name="cd_reset_speed">Reset speed</string>
+    <string name="select_playback_speed">播放速度</string>
+    <string name="cd_reset_speed">重設速度</string>
     <string name="skip_silence">Skip silence</string>
 
     <!-- Player controls -->
-    <string name="cd_back">Back</string>
-    <string name="cd_copy_url">Copy video URL</string>
-    <string name="cd_rotate">Rotate screen</string>
-    <string name="cd_lock_controls">Lock controls</string>
-    <string name="cd_unlock_controls">Unlock controls</string>
+    <string name="cd_back">後退</string>
+    <string name="cd_copy_url">複製影片連結</string>
+    <string name="cd_rotate">旋轉螢幕</string>
+    <string name="cd_lock_controls">控制鎖定</string>
+    <string name="cd_unlock_controls">解除控制鎖定</string>
     <string name="scale_best_fit">Best fit</string>
     <string name="scale_stretch">Stretch</string>
     <string name="scale_crop">Crop</string>
     <string name="scale_hundred_percent">100%</string>
 
     <!-- Dialogs -->
-    <string name="dialog_pin_title">AirPlay PIN</string>
-    <string name="btn_ok">OK</string>
+    <string name="dialog_pin_title">輸入 AirPlay PIN</string>
+    <string name="btn_ok">確定</string>
 
     <!-- Logs screen -->
-    <string name="btn_export">Export</string>
-    <string name="btn_clear">Clear</string>
+    <string name="btn_export">匯出</string>
+    <string name="btn_clear">清除</string>
     <string name="export_logs_chooser_title">Export logs</string>
 
     <!-- Settings sections -->
@@ -83,60 +83,60 @@
     <string name="setting_server_name">接收器名稱</string>
     <string name="setting_server_port">接收器連接埠</string>
     <string name="setting_auto_start">自動啟動接收器</string>
-    <string name="setting_auto_start_desc">Start the AirPlay server when the app launches</string>
-    <string name="setting_boot_auto_start">Start server at boot</string>
-    <string name="setting_boot_auto_start_desc">Start the AirPlay server when the device starts</string>
-    <string name="setting_run_in_background">Run in background</string>
-    <string name="setting_run_in_background_desc">Keep the server running after leaving the app</string>
+    <string name="setting_auto_start_desc">啟動應用程式時自動啟動 AirPlay 接收器</string>
+    <string name="setting_boot_auto_start">開機時啟動接收器</string>
+    <string name="setting_boot_auto_start_desc">裝置啟動時自動啟動 AirPlay 接收器</string>
+    <string name="setting_run_in_background">在背景執行</string>
+    <string name="setting_run_in_background_desc">離開應用程式後，保持應用程式執行</string>
 
     <!-- Settings: Connection -->
     <string name="setting_require_pin">需要 PIN (Beta)</string>
-    <string name="setting_require_pin_desc">Require 4-digit PIN for each new connection</string>
-    <string name="setting_allow_new_conn">Allow new connections</string>
-    <string name="setting_allow_new_conn_desc">Drop current client when a new one connects</string>
+    <string name="setting_require_pin_desc">每次連接均需要輸入 4 位數字的 PIN 碼</string>
+    <string name="setting_allow_new_conn">接受新的連接</string>
+    <string name="setting_allow_new_conn_desc">當有新的連接時，中斷目前裝置的連接</string>
 
     <!-- Settings: Display -->
     <string name="setting_idle_preview">Idle screen preview</string>
     <string name="setting_idle_preview_desc">Show video surface while waiting for a connection</string>
-    <string name="setting_auto_fullscreen">Enter fullscreen automatically</string>
-    <string name="setting_auto_fullscreen_desc">Enter fullscreen when a client connects</string>
-    <string name="setting_keep_screen_on">Keep screen on</string>
+    <string name="setting_auto_fullscreen">自動進入全螢幕</string>
+    <string name="setting_auto_fullscreen_desc">連接至裝置時進入全螢幕</string>
+    <string name="setting_keep_screen_on">保持螢幕開啟</string>
     <string name="setting_keep_screen_on_desc">Prevent sleeping while a client is connected</string>
-    <string name="setting_advertise_video">Advertise AirPlay video support</string>
+    <string name="setting_advertise_video">開啟 AirPlay 視訊支援</string>
     <string name="setting_advertise_video_desc">When off, videos are cast as audio only streams</string>
-    <string name="setting_advertise_audio">Advertise AirPlay audio support</string>
+    <string name="setting_advertise_audio">開啟 AirPlay 音訊支援</string>
     <string name="setting_advertise_audio_desc">When off, the device can only be used for mirroring and will be hidden from media players</string>
-    <string name="setting_alac">Advertise ALAC codec</string>
+    <string name="setting_alac">使用 ALAC 編解碼器</string>
     <string name="setting_alac_desc">Offer ALAC in the mDNS record; used for music streaming</string>
-    <string name="setting_aac">Advertise AAC codec</string>
+    <string name="setting_aac">使用 AAC 編解碼器</string>
     <string name="setting_aac_desc">Offer AAC-ELD/AAC-LC in the mDNS record; used for screen mirroring audio</string>
-    <string name="setting_launch_on_connect">Open this application on connect</string>
+    <string name="setting_launch_on_connect">連接時啟動此程式</string>
     <string name="setting_launch_on_connect_desc">Show the screen when a client connects</string>
     <string name="setting_launch_on_connect_no_permission">Tap to grant Display over other apps permission</string>
-    <string name="setting_resolution">Resolution</string>
+    <string name="setting_resolution">解析度</string>
     <string name="setting_resolution_desc">Video resolution advertised to clients</string>
     <string name="setting_resolution_placeholder">[W]x[H]</string>
-    <string name="setting_resolution_width">Width</string>
-    <string name="setting_resolution_height">Height</string>
-    <string name="setting_max_fps">Maximum FPS</string>
+    <string name="setting_resolution_width">寬度</string>
+    <string name="setting_resolution_height">高度</string>
+    <string name="setting_max_fps">最高 FPS</string>
     <string name="setting_max_fps_desc">Maximum frame rate advertised to clients</string>
     <string name="setting_max_fps_placeholder">FPS</string>
-    <string name="setting_overscanned">Overscanned</string>
+    <string name="setting_overscanned">允許過掃描</string>
     <string name="setting_overscanned_desc">Add pixel boundary for full-screen overscan displays</string>
-    <string name="chip_custom">Custom</string>
-    <string name="chip_device_portrait">Portrait</string>
-    <string name="chip_device_landscape">Landscape</string>
+    <string name="chip_custom">自訂</string>
+    <string name="chip_device_portrait">縱向</string>
+    <string name="chip_device_landscape">橫向</string>
 
     <!-- Settings: Decode -->
     <string name="setting_h265">H.265 (HEVC)</string>
     <string name="setting_h265_desc">Enable H.265 video decoding if device supports it</string>
     <string name="setting_enforce_sdr">MediaFormat.KEY_COLOR_TRANSFER</string>
     <string name="setting_enforce_sdr_desc">Tag video as limited SDR; disable to allow HDR sources to pass through</string>
-    <string name="setting_sw_alac">Force software ALAC decoder</string>
+    <string name="setting_sw_alac">強制使用軟體 ALAC 編解碼器</string>
     <string name="setting_sw_alac_desc">Always use software ALAC decoder instead of hardware decoder, may affect audio latency</string>
 
     <!-- Settings: Developer -->
-    <string name="setting_developer_options">Developer options</string>
+    <string name="setting_developer_options">開發者選項</string>
     <string name="setting_developer_options_desc">Show options for advanced users</string>
     <string name="setting_key_allow_frame_drop">MediaFormat.KEY_ALLOW_FRAME_DROP</string>
     <string name="setting_key_allow_frame_drop_desc">Allow video decoders to drop frames internally to keep up on Android 10+</string>
@@ -144,10 +144,10 @@
     <string name="setting_realtime_decoder_priority_desc">Request real-time scheduling for audio decoder</string>
     <string name="setting_operating_rate">MediaFormat.KEY_OPERATING_RATE</string>
     <string name="setting_operating_rate_desc">Request maximum operating rate from decoder</string>
-    <string name="chip_auto">Auto</string>
-    <string name="chip_on">On</string>
-    <string name="chip_off">Off</string>
-    <string name="setting_low_latency">Low latency</string>
+    <string name="chip_auto">自動</string>
+    <string name="chip_on">開</string>
+    <string name="chip_off">關</string>
+    <string name="setting_low_latency">低延遲</string>
     <string name="setting_low_latency_desc">Use low-latency audio decoding for output; this uses more power and CPU</string>
     <string name="setting_scheduled_output_buffer_release">Aligned frame pacing</string>
     <string name="setting_scheduled_output_buffer_release_desc">Schedule each decoded frame to the VSYNC matching its presentation timestamp</string>
